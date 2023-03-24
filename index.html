@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Prueba
+        </title>
+        <meta charset="UTF-8">
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> 
+        <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+        <link rel="stylesheet" href="./styles.css"/>
+        <link rel="icon" type="image/x-icon" href="./logos/logo2.svg">
+
+    </head>
+    <body>
+        <div class="cursor"></div>
+        <div class="header">
+            <a class="logo" href="./index.html"><img src="./logos/logo2_white.svg"></a>
+            <nav class="desktop">
+                <a href="#">Home</a>
+                <a href="#">Information</a>
+                <a href="#">Contact</a>
+            </nav>
+            <div class="contham">
+                <nav class="hamburguesa" id="hamburguesa">
+                    <img src="./imagenes/hamburguesa.svg">
+                </nav>
+            </div>
+        </div>
+        <div class="oculto" id="menudespl">
+            <div class="desplegable" id="desplegable">
+                <p class="exit" id="exit">X</p>
+                <nav>
+                    <a href="#">Home</a>
+                    <a href="#">Information</a>
+                    <a href="#">Contact</a>
+                </nav>
+            </div>
+        </div>  
+
+        <div class="imagen">
+            <img class="marco" src="./imagenes/marco.svg">
+            <img class="malla" src="./imagenes/malla.svg">
+        </div>
+        <div class="texto">
+            <p>
+                METAVERSE
+            </p>
+            <p class="subtext">The Metaverse is a virtual world, one to which we will connect using a series of devices that will make us think 
+                that we are really inside it, interacting with all its elements.
+                It will be like really teleporting to a whole new world through virtual reality glasses and other accessories that will allow us to
+                interact with him.</p>
+        </div>
+
+
+
+        <div class="contenido">
+
+            <div  class="expl">
+                <p id="explp">
+                    The metaverse is an online space where users can interact with each other, create and share content, and engage in a variety of activities, from gaming to education to e-commerce. 
+                    Unlike traditional online games, the metaverse does not have a single, defined goal, but rather is an 
+                    ever-evolving online environment that offers users the opportunity to experiment, create, and explore.
+
+                    The idea of the metaverse has gained momentum in recent years thanks to the increased processing power of computers and the availability of virtual and augmented reality technologies. 
+                    Big tech companies,including Facebook, Google, and Microsoft, are investing heavily in developing metaverse platforms to allow users to interact in a shared virtual environment.
+                    
+                    The potential of the metaverse is enormous, with applications ranging from education to entertainment to commerce. In the metaverse, people can attend virtual classes and lectures, 
+                    visit museums and art galleries online, buy products in virtual stores, and experience online games that feel more realistic than ever.</p>
+            </div>
+            <div class="ia">
+                <img class="marco" src="./imagenes/mano.png">
+            </div>
+        </div>
+        <div id="particles-js"></div> <!-- stats - count particles --> 
+        <div class="count-particles"></div>
+    <div class="contact">
+        <div class="form">
+            <h2>Contact us</h2>
+            <form method="POST">
+                <div class="login">				
+                    <input id="usuario" type="email">
+                    <label for="usuario">Mail</label>
+                </div>
+                <div class="login">				
+                    <input id="senha" type="text-area">
+                    <label for="senha">Message</label>
+                </div>
+    
+                <a href="#">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Send
+                </a>
+            </form>
+        </div>
+
+    </div>
+
+
+        <script src="./funcion.js"></script>
+    </body>
+</html>
